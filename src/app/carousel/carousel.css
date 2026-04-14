@@ -1,0 +1,26 @@
+.jewelry-title {
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+  color: gold;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #777;
+  font-style: italic;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.carousel-caption h2 {
+  color: gold;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  color: #fff;
+}

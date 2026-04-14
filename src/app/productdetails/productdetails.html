@@ -1,0 +1,36 @@
+<div class="product-page">
+
+  <div class="product-card">
+
+    <div class="image-container">
+      <img src="{{productdetails.image}}" alt="Backpack">
+    </div>
+
+    <div class="product-info">
+
+      <h2 class="title">
+       {{productdetails.title}}
+      </h2>
+
+      <p class="category">
+        {{productdetails.category}}
+      </p>
+
+      <p class="description">
+        {{productdetails.description}}
+      </p>
+
+      <div class="price-rating">
+        <span class="price">${{productdetails.price}}</span>
+        <span class="rating">⭐ {{productdetails.rating.rate}} ({{productdetails.rating.count}} reviews)</span>
+      </div>
+
+      <button class="cart-btn">
+        Add to Cart
+      </button>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,21 @@
+
+<div class="container mt-4">
+  <div class="row ">
+    <h2 class="text-center mb-4">Products</h2>
+
+
+  
+@for (item of products; track item.id) {
+   
+ 
+<div class="col">
+  <app-cards [item]="item"></app-cards>
+</div>
+
+
+} @empty {
+<li>There are no items.</li>
+}
+
+</div>
+</div>
